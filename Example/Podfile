@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JamifiSDK_Example' do
+  pod 'JamifiSDK', :path => '../'
+
+  target 'JamifiSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
