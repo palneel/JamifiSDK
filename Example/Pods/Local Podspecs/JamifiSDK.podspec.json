@@ -1,8 +1,8 @@
 {
   "name": "JamifiSDK",
   "version": "0.1.0",
-  "summary": "A short description of JamifiSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "JamifiSDK packages all common functionality of your app like login, event management etc",
+  "description": "JamifiSDK abstracts all the common core features of apps like login, event recording to event management and analysis softwares like Fabric, Amplitude, Facebook etc.",
   "homepage": "https://github.com/palneel/JamifiSDK",
   "license": {
     "type": "MIT",
@@ -16,7 +16,12 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "JamifiSDK/Classes/**/*"
+  "source_files": "JamifiSDK/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

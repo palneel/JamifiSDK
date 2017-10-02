@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     var replaceMe = ReplaceMe()
     override func viewDidLoad() {
         super.viewDidLoad()
-       let helloString = replaceMe.getHelloString()
-        print(helloString)
+       
     }
 
     override func didReceiveMemoryWarning() {
