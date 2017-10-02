@@ -1,0 +1,6 @@
+framework module JamifiSDK {
+  umbrella header "JamifiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

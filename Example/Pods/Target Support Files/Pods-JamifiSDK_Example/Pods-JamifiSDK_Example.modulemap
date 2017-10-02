@@ -1,0 +1,6 @@
+framework module Pods_JamifiSDK_Example {
+  umbrella header "Pods-JamifiSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

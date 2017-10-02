@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import JamifiSDK
 
 class ViewController: UIViewController {
 
+    var replaceMe = ReplaceMe()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       let helloString = replaceMe.getHelloString()
+        print(helloString)
     }
 
     override func didReceiveMemoryWarning() {
